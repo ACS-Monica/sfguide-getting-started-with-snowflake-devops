@@ -1,6 +1,8 @@
 -- Views to transform marketplace data in pipeline
 use role accountadmin;
 --use schema quickstart_prod.silver;
+USE WAREHOUSE DEV_ETL_WH;
+
 use schema quickstart_{{environment}}.silver;
 
 /*

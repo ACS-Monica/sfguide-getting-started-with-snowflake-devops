@@ -1,5 +1,8 @@
 use role accountadmin;
 --use schema quickstart_prod.gold;
+
+USE WAREHOUSE DEV_ETL_WH;
+
 use schema quickstart_{{environment}}.gold;
 
 
